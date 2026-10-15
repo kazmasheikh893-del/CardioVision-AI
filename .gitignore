@@ -1,0 +1,17 @@
+node_modules/
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.pyc
+dist/
+.vite/
+.env
+CardioVisionAI.zip
+*.tsbuildinfo
+
+.env.*
+!.env.example
+coverage/
+venv/
+data/cardiovision.db

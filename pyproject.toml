@@ -1,0 +1,7 @@
+[tool.pytest.ini_options]
+minversion = "7.0"
+testpaths = ["backend/tests"]
+pythonpath = ["."]
+filterwarnings = [
+    "ignore::DeprecationWarning",
+]
